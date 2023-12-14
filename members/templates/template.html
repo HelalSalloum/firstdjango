@@ -1,0 +1,18 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+	<link rel = "stylesheet" href = "{% static 'myglobal.css' %}">
+
+	<title> testing </title>
+
+	<body>
+
+		{% for i in fruits %}
+		<h1> {{ i }} </h1>
+		{% endfor %}
+		
+		<p> this is the testing </p>
+
+	</body>
+</html>
